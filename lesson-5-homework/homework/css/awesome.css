@@ -1,0 +1,68 @@
+.awesome-description {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.awesome-description h2 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42.26px;
+}
+
+.awesome-description h3 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+
+.separator {
+  width: 170px;
+  height: 1px;
+  background-color: #ec7979;
+  margin-top: 57px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.awesome-card__icon {
+  margin: auto;
+  width: 90px;
+  height: 92px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #ec7979;
+  border-radius: 50%;
+}
+
+.awesome-card__text {
+  max-height: 105px;
+  max-width: 370px;
+  margin: auto;
+  align-items: center;
+  margin-top: 40px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.awesome__title {
+  margin-top: 40px;
+  align-items: center;
+  font-family: "OpenSans";
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.awesome-cards {
+  display: flex;
+  max-height: 665px;
+  max-height: 1170px;
+  justify-content: center;
+}

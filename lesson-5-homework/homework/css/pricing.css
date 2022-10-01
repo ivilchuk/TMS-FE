@@ -1,0 +1,129 @@
+.pricing-title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pricing-title h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  margin-bottom: 50px;
+}
+
+.pricing-title__line {
+  border: 1px solid #ec7979;
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricing-title__subtitle {
+  margin-top: 40px;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 400;
+  color: #86878b;
+}
+
+.pricing-options-cards {
+  display: flex;
+  max-width: 1170px;
+  padding: 60px;
+  justify-content: center;
+}
+
+.pricing-card__black-box:nth-child(1) {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: #ffffff;
+  font-family: "OpenSans-Regular";
+  font-weight: 700;
+  font-size: 24px;
+  height: 60px;
+  padding: 16px;
+  width: 370px;
+  border: 2px solid #f5f5f5;
+}
+
+.pricing-card__black-box:nth-child(2) {
+  font-size: 36px;
+  font-family: "Raleway";
+  font-weight: 900;
+  padding: 30px;
+  color: white;
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid #f5f5f5;
+  width: 370px;
+}
+
+.pricing-card__black-box:nth-child(3) {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Raleway";
+  line-height: 21px;
+  border: 2px solid #f5f5f5;
+  height: 50px;
+  padding: 12px;
+  width: 370px;
+}
+
+.pricing-card__white-box {
+  justify-content: center;
+  font-size: 18px;
+  text-align: center;
+  background: #ffffff;
+  border: 2px solid #f5f5f5;
+  width: 370px;
+  height: 50px;
+  padding: 12px;
+  font-family: "Raleway";
+  line-height: 21px;
+  color: #86878b;
+}
+
+.pricing-card:nth-child(1) {
+  margin-top: 20px;
+}
+
+.pricing-card:nth-child(3) {
+  margin-top: 20px;
+}
+
+.pricing-options {
+  background: #f5f5f5;
+  margin-top: 50px;
+}
+
+.footer {
+  background-color: black;
+  height: 164px;
+  margin: auto;
+}
+
+.footer-img {
+  display: flex;
+  justify-content: center;
+  max-width: 487px;
+  justify-content: space-between;
+  height: 42px;
+  padding-top: 40px;
+  margin: auto;
+}
+
+.footer-text {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Raleway";
+  font-size: 15px;
+  padding-top: 80px;
+}
