@@ -1,0 +1,27 @@
+.header-wrap {
+  display: flex;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.navigation-list__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.navigation-list__item a {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+
+.logo img {
+  vertical-align: bottom;
+  display: flex;
+}
+
+.navigation-list {
+  margin-right: 97px;
+}
