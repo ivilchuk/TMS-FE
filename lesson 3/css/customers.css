@@ -1,0 +1,61 @@
+.our-costumers {
+  text-align: center;
+  font-family: "Raleway";
+  margin-top: 50px;
+}
+
+.separator {
+  width: 170px;
+  height: 1px;
+  background-color: #ec7979;
+  margin-top: 57px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-costumers-title {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.our-costumers-card__text {
+  position: relative;
+  background: #e2e2e2;
+  border-radius: 10px;
+}
+
+.our-costumers-card__text::after {
+  position: absolute;
+  left: 44px;
+  top: 100%;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 15px 0 15px;
+  border-color: #e2e2e2 transparent transparent transparent;
+}
+
+.our-costumers-wrap {
+  display: flex;
+  margin-top: 50px;
+}
+
+.our-costumers-card {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.our-costumers-card__info {
+  display: flex;
+  margin-top: 66px;
+}
+
+.our-costumers-card__info img {
+  margin-right: 30px;
+}
+
+.our-costumers-card__job {
+  margin: auto;
+}

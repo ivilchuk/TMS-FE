@@ -1,10 +1,15 @@
 @font-face {
-        font-family: "CustomFont";
-        src: url("../fonts/Roboto-Bold.ttf");
-        font-weight: 700;
+  font-family: "CustomFont";
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: 700;
 }
 @font-face {
-    font-family: "Custom2";
-    src: url("../fonts/Roboto-Regular.ttf");
-    font-weight: 400;
+  font-family: "Custom2";
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway-VariableFont_wght.ttf);
 }
