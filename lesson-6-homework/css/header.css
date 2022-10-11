@@ -32,6 +32,8 @@
 
 .header-user-action__icon {
   height: 24px;
+  background-color: #ffffff;
+  border: none;
 }
 
 .header-user-action__icons {
@@ -40,6 +42,7 @@
 
 .header-user-action {
   display: flex;
+  align-items: center;
 }
 
 .header-user-action__icons * + * {
@@ -55,7 +58,6 @@
 }
 
 .background-info-title {
-  position: relative;
   z-index: 1;
   font-weight: 700;
   font-size: 48px;
@@ -65,7 +67,6 @@
 }
 
 .background-info-subtitle {
-  position: relative;
   z-index: 1;
   font-weight: 700;
   font-size: 16px;
@@ -74,8 +75,7 @@
   margin-bottom: 24px;
 }
 
-.link-buttom {
-  position: relative;
+.link-button {
   z-index: 1;
   background: #ffffff;
   border-radius: 2px;
@@ -84,10 +84,10 @@
   height: 40px;
   border: none;
   font-weight: 700;
-  margin-right: 25px;
+  /* margin-right: 25px; */
 }
 
-.bg-section__container {
+.container_content-bottom {
   height: 100%;
   display: flex;
   align-items: flex-end;
@@ -95,4 +95,19 @@
 
 .background-info {
   font-family: "CustomFont";
+  margin-bottom: 50px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.link-buttom {
+  border: none;
+  background-color: #ffffff;
+}
+
+.background-link .link-button:first-child {
+  margin-right: 25px;
 }

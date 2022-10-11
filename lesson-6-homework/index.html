@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework 6</title>
     <link rel="stylesheet" href="./css/index.css">
+    <script src="https://kit.fontawesome.com/064c534f85.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -41,11 +42,11 @@
                         </ul>
                     </nav>
                     <div class="header-user-action__icons">
-                        <a href="#"><img class="header-user-action__icon" src="./image/profile-2.svg" alt="profile"></a>
-                        <a href="#"><img class="header-user-action__icon" src="./image/question.svg"
-                                alt="questions"></a>
-                        <a href="#"><img class="header-user-action__icon" src="./image/Cart-Empty.svg"
-                                alt="cartempty"></a>
+                        <button class="header-user-action__icon" href="#"><img src="./image/profile-2.svg"
+                                alt="profile"></button>
+                        <button class="header-user-action__icon" href="#"><i class="fa-thin fa-user"></i></button>
+                        <button class="header-user-action__icon" href="#"><img src="./image/Cart-Empty.svg"
+                                alt="cartempty"></button>
                     </div>
                 </div>
             </div>
@@ -53,12 +54,14 @@
     </header>
 
     <section class="bg-section">
-        <div class="container bg-section__container">
+        <div class="container container_content-bottom">
             <div class="background-info">
                 <h2 class="background-info-title">The Trail Runner SWT Is Here.</h2>
                 <p class="background-info-subtitle">Durable. Comfortable. Ready to get dirty.</p>
-                <button class="link-buttom">Shop Men</button>
-                <button class="link-buttom">Shop Women</button>
+                <div class="background-link">
+                    <button class="link-button">Shop Men</button>
+                    <button class="link-button">Shop Women</button>
+                </div>
             </div>
         </div>
     </section>
