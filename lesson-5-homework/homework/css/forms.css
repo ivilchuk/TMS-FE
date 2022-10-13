@@ -1,0 +1,58 @@
+.contact-subtitle {
+  font-size: 18px;
+}
+
+.contact-title {
+  font-size: 36px;
+}
+
+.contact {
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.contact-area {
+  display: flex;
+  margin-top: 89px;
+}
+
+.contact-area-info * {
+  display: block;
+  width: 571px;
+  border: none;
+}
+
+.contact-area-button {
+  margin-top: 50px;
+  background: #ec7979;
+  width: 370px;
+  height: 58px;
+  font-size: 18px;
+  font-weight: 400;
+  outline: none;
+}
+
+.contact-area-message {
+  border: none;
+}
+
+.contact-area-info input:not(:first-child) {
+  margin-top: 85px;
+}
+
+.contact-area-message {
+  width: 100%;
+  margin-left: 30px;
+}
+
+.contact-area-message input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.contact-area-info input {
+  border-bottom: 1px solid black;
+}
