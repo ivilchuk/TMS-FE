@@ -25,3 +25,13 @@
 .navigation-list {
   margin-right: 97px;
 }
+
+@media (max-width: 661px) {
+  .navigation {
+    display: none;
+  }
+}
+
+.logo {
+  margin: auto;
+}

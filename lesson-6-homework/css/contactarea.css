@@ -1,0 +1,39 @@
+.contact-area {
+  margin-top: 50px;
+}
+
+.contact-area-message * {
+  border: none;
+  text-align: center;
+}
+
+.contact-area-message input:nth-child(1) {
+  border-bottom: 2px solid #212a2f;
+  width: 584px;
+  height: 48px;
+  margin-right: 12px;
+  resize: none;
+  text-align: initial;
+  padding-left: 48px;
+  font-family: "CustomFont";
+  color: rgba(0, 0, 0, 0.22);
+  font-size: 14px;
+}
+
+.button-sign {
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: "CustomFont";
+}
+
+.section-note {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "CustomFont";
+  color: #74797c;
+}
+
+.contact-area-message input:nth-child(2) {
+  width: 111px;
+  height: 48px;
+}

@@ -76,7 +76,7 @@
   margin-bottom: 24px;
 }
 
-.link-button {
+.button {
   z-index: 1;
   background: #ffffff;
   border-radius: 2px;
@@ -85,6 +85,11 @@
   height: 40px;
   border: none;
   font-weight: 700;
+}
+
+.button_color-black {
+  background: #212a2f;
+  color: #ffffff;
 }
 
 .container_content-bottom {
@@ -103,11 +108,6 @@
   align-items: center;
 }
 
-.link-buttom {
-  border: none;
-  background-color: #ffffff;
-}
-
-.background-link .link-button:first-child {
+.background-buttons .button:first-child {
   margin-right: 25px;
 }

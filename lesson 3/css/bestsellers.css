@@ -11,11 +11,14 @@
 .best-sellers {
   background-color: rgba(204, 204, 204, 0.3);
   padding-top: 20px;
+  margin: 0 auto;
 }
 
 .best-sellers-wrap {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .best-sellers-card__img {
@@ -24,7 +27,7 @@
 }
 
 .best-sellers-card__img img {
-  width: 300px;
+  width: 100%;
 }
 
 .best-sellers-card__title {
@@ -120,4 +123,15 @@
 
 .link-button {
   display: inline-block;
+}
+
+.best-sellers-card {
+  text-align: center;
+}
+
+@media (max-width: 937px) {
+  .best-sellers-box-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

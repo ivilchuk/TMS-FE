@@ -24,17 +24,17 @@
   font-size: 14px;
 }
 
-.footer-flock {
+.footer-block {
   display: flex;
   justify-content: space-between;
   margin-top: 85px;
 }
 
-.footer-follow-title {
+.footer-block-info__title {
   margin-bottom: 21px;
 }
 
-.footer-follow-subtitle {
+.footer-block-info__subtitle {
   width: 293px;
   font-size: 12px;
   line-height: 18px;
@@ -49,9 +49,9 @@
   text-align: center;
   font-size: 12px;
   font-weight: 400;
-  margin-bottom: 90px;
 }
 
 .footer-flags {
   width: 300px;
+  display: inline-block;
 }
