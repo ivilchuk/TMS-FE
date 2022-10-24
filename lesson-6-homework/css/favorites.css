@@ -154,6 +154,9 @@ input[type="radio"]:checked + label {
 .section-info {
   padding-top: 54px;
   padding-bottom: 30px;
+  max-width: 823px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .section-button .button:last-child {
