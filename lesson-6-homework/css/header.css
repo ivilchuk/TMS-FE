@@ -108,6 +108,28 @@
   align-items: center;
 }
 
-.background-buttons .button:first-child {
-  margin-right: 25px;
+.background-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* .button {
+  margin-right: 20px;
+}
+
+.background-buttons .button:last-child {
+  margin-right: 0;
+} */
+
+@media (max-width: 743px) {
+  .navigation {
+    display: none;
+  }
+}
+
+@media (max-width: 419px) {
+  .background-buttons {
+    justify-content: center;
+  }
 }

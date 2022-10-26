@@ -2,6 +2,10 @@
   margin-top: 50px;
 }
 
+.contact-area-message {
+  display: flex;
+}
+
 .contact-area-message * {
   border: none;
   text-align: center;
@@ -34,6 +38,7 @@
 }
 
 .contact-area-message input:nth-child(2) {
-  width: 111px;
   height: 48px;
+  flex-basis: 111px;
+  min-width: 111px;
 }

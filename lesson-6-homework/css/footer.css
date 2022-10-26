@@ -1,7 +1,8 @@
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  width: 55%;
+  max-width: 450px;
 }
 
 .footer {
@@ -26,6 +27,7 @@
 
 .footer-block {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 85px;
 }

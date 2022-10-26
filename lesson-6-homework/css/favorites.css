@@ -185,3 +185,18 @@ input[type="radio"]:checked + label {
 .section-note {
   padding-top: 24px;
 }
+
+@media (max-width: 799px) {
+  .cards-grid .card {
+    width: calc((100% - 24px) / 2);
+  }
+  .cards-grid {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 499px) {
+  .cards-grid .card {
+    width: 100%;
+  }
+}
