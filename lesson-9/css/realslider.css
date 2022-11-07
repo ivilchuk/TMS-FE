@@ -1,0 +1,46 @@
+.wrapper {
+  padding-top: 80px;
+}
+
+.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.image-slider .swiper-pagination-bullet {
+  background-color: #5c3249;
+}
+
+.image-slider__slide {
+  display: flex;
+}
+
+.image-slider__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-description {
+  width: 60%;
+  background: #5c3249;
+  padding: 115px 170px 115px 130px;
+  align-items: center;
+}
+
+.slider-description__title {
+  font-family: "Cardo", serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.slider-description__subtitle {
+  font-family: "Raleway";
+  font-size: 13px;
+  margin-top: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+}

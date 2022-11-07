@@ -31,13 +31,16 @@
   justify-content: space-between;
   margin-top: 85px;
 }
+.footer-block-info {
+  max-width: 293px;
+}
 
 .footer-block-info__title {
   margin-bottom: 21px;
 }
 
 .footer-block-info__subtitle {
-  width: 293px;
+  /* max-width: 293px; */
   font-size: 12px;
   line-height: 18px;
 }

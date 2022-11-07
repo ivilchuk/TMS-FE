@@ -1,0 +1,47 @@
+.founders {
+  padding-top: 115px;
+}
+
+.founders-cards {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Raleway";
+}
+
+.founder-card {
+  flex-basis: calc((100% - 25px * 3) / 4);
+}
+
+.founder-card-info {
+  margin-top: 30px;
+}
+
+.founder-card-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.founder-card-subtitle {
+  margin-top: 5px;
+  margin-bottom: 18px;
+  font-size: 18px;
+  color: #ff4343;
+}
+
+.founder-card-description {
+  font-size: 18px;
+}
+
+.founder-card-links {
+  margin-top: 38px;
+}
+
+.button button:hover {
+  background-color: #e71414;
+  transition: 0.4s ease;
+}
+
+.button button:active {
+  background: #ff4343;
+  box-shadow: 4px 4px 30px #ff4343;
+}
