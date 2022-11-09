@@ -60,6 +60,9 @@ a:hover {
 
 .header-info {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
   margin-top: 130px;
   margin-bottom: 120px;
 }
@@ -68,15 +71,12 @@ a:hover {
   font-size: 64px;
   color: #ffffff;
   font-weight: 900;
-  padding-left: 170px;
-  padding-right: 170px;
+  max-width: 900px;
 }
 
 .header-info-subtitle {
   margin-top: 31px;
   margin-bottom: 82px;
-  padding-left: 170px;
-  padding-right: 170px;
   font-weight: 400;
   font-size: 24px;
   color: #ffffff;
@@ -102,3 +102,34 @@ a:hover {
   background-color: #e71414;
   opacity: 0.8;
 }
+
+@media (max-width: 1024px) {
+  .header-info-title {
+    font-size: 48px;
+  }
+  .header-info-subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 743px) {
+  .header-navigation  {
+    display: none;
+  }
+}
+
+@media (max-width: 743px) {
+  .menu-btn {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-info-title {
+    font-size: 36px;
+  }
+  .header-info-subtitle {
+    font-size: 14px;
+  }
+}
+

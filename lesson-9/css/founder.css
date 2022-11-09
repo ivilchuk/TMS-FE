@@ -8,7 +8,18 @@
   font-family: "Raleway";
 }
 
+.founder-foto {
+  display: flex;
+}
+
+.founder-foto img {
+  object-fit: cover;
+  width: 100%;
+}
+
 .founder-card {
+  margin-top: 35px;
+  margin-bottom: 50px;
   flex-basis: calc((100% - 25px * 3) / 4);
 }
 
@@ -45,3 +56,20 @@
   background: #ff4343;
   box-shadow: 4px 4px 30px #ff4343;
 }
+
+@media (max-width: 1024px) {
+  .founder-card {
+    flex-basis: calc((100% - 25px) / 2);
+  }
+  .founders-cards {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .founder-card {
+    flex-basis: 100%;
+  }
+}
+
